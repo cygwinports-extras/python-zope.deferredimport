@@ -1,0 +1,73 @@
+python-zope-deferredimport
+------------------------------------------
+Zope modular deferred import library
+
+Runtime requirements:
+  python-2.5.1-3
+  python-setuptools-0.6c6-1
+  python-zope-proxy-3.4.0-1
+
+Build requirements:
+  cygwin-1.5.24-2
+  cygport-0.3.5-1
+  python-2.5.1-3
+  python-setuptools-0.6c6-1
+
+Canonical website:
+  http://cheeseshop.python.org/pypi/zope.deferredimport
+
+Canonical download:
+  http://cheeseshop.python.org/packages/source/z/zope.deferredimport/
+
+-------------------------------------------
+
+Build instructions:
+  unpack python-zope-deferredimport-3.4.0-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./python-zope-deferredimport-3.4.0-X.cygport all
+
+This will create:
+  /usr/src/python-zope-deferredimport-3.4.0-X-src.tar.bz2
+  /usr/src/python-zope-deferredimport-3.4.0-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/python2.5/site-packages/zope.deferredimport-3.4.0-py2.5-nspkg.pth
+  /usr/lib/python2.5/site-packages/zope.deferredimport-3.4.0-py2.5.egg-info/PKG-INFO
+  /usr/lib/python2.5/site-packages/zope.deferredimport-3.4.0-py2.5.egg-info/SOURCES.txt
+  /usr/lib/python2.5/site-packages/zope.deferredimport-3.4.0-py2.5.egg-info/dependency_links.txt
+  /usr/lib/python2.5/site-packages/zope.deferredimport-3.4.0-py2.5.egg-info/namespace_packages.txt
+  /usr/lib/python2.5/site-packages/zope.deferredimport-3.4.0-py2.5.egg-info/not-zip-safe
+  /usr/lib/python2.5/site-packages/zope.deferredimport-3.4.0-py2.5.egg-info/requires.txt
+  /usr/lib/python2.5/site-packages/zope.deferredimport-3.4.0-py2.5.egg-info/top_level.txt
+  /usr/lib/python2.5/site-packages/zope/deferredimport/DEPENDENCIES.cfg
+  /usr/lib/python2.5/site-packages/zope/deferredimport/README.txt
+  /usr/lib/python2.5/site-packages/zope/deferredimport/__init__.py
+  /usr/lib/python2.5/site-packages/zope/deferredimport/__init__.pyc
+  /usr/lib/python2.5/site-packages/zope/deferredimport/__init__.pyo
+  /usr/lib/python2.5/site-packages/zope/deferredimport/deferredmodule.py
+  /usr/lib/python2.5/site-packages/zope/deferredimport/deferredmodule.pyc
+  /usr/lib/python2.5/site-packages/zope/deferredimport/deferredmodule.pyo
+  /usr/lib/python2.5/site-packages/zope/deferredimport/tests.py
+  /usr/lib/python2.5/site-packages/zope/deferredimport/tests.pyc
+  /usr/lib/python2.5/site-packages/zope/deferredimport/tests.pyo
+  /usr/share/doc/Cygwin/python-zope-deferredimport-3.4.0.README
+  /usr/share/doc/python-zope-deferredimport-3.4.0/README.txt
+
+------------------
+
+Port Notes:
+
+----- version 3.4.0-1 -----
+Version bump.
+
+----- version 3.4dev-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/

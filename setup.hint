@@ -1,0 +1,4 @@
+category: Python
+requires: cygwin python python-setuptools python-zope-proxy
+sdesc: "Zope deferred import library"
+ldesc: "Zope deferred import library"
