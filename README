@@ -3,14 +3,14 @@ python-zope.deferredimport
 Zope modular deferred import library
 
 Runtime requirements:
-  python-2.5.4-1
-  python-setuptools-0.6c9-1
-  python-zope.proxy-3.5.0-1
+  python-2.5.4-10
+  python-setuptools-0.6c9-10
+  python-zope.proxy-3.5.0-10
 
 Build requirements:
-  cygport-0.4.3-1
-  python-2.5.4-1
-  python-setuptools-0.6c9-1
+  cygport-0.9.6-1
+  python-2.5.4-10
+  python-setuptools-0.6c9-10
 
 Canonical website:
   http://cheeseshop.python.org/pypi/zope.deferredimport
@@ -54,20 +54,14 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/zope/deferredimport/tests.py
   /usr/lib/python2.5/site-packages/zope/deferredimport/tests.pyc
   /usr/lib/python2.5/site-packages/zope/deferredimport/tests.pyo
-  /usr/share/doc/python-zope.deferredimport-3.5.0/README.txt
+  /usr/share/doc/python-zope.deferredimport/README.txt
 
 ------------------
 
 Port Notes:
 
------ version 3.5.0-1 -----
-Version bump.
-
------ version 3.4.0-1 -----
-Version bump.
-
------ version 3.4dev-1 -----
-Initial release for Cygwin.
+----- version 3.5.0-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
